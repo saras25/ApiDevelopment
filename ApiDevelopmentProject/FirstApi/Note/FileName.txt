@@ -1,0 +1,10 @@
+24/12/2024
+
+ Steps to create a webapi in asp.net web application 
+ 1.Create an application using asp.net framework empty template without taking default mvc design
+ 2.Add a new controller by extending an ApiController class to make that controller work as an API
+ 3.Use the namespace to create web api>> using System.Web.Http;
+ 4.Web Api returns IHttpActionResult whereas default MVC return ActionResult
+ 5.to configure the route we need to add the configuration in WebApiConfig.cs file inside app_start folder
+ 6.Comment the default routeConfig configuration because routeConfig is used for default MVC design
+ whereas WebApiConfig is used while creating Web Api.

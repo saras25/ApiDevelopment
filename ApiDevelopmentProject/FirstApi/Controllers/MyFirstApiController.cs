@@ -17,5 +17,11 @@ namespace FirstApi.Controllers
             };
             return Ok(response); // Returns HTTP 200 with the response data
         }
+
+        [HttpGet]
+        public string Get(int id)
+        {
+            return $"You requested value {id}";
+        }
     }
 }
